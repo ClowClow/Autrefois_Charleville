@@ -15,36 +15,7 @@
 </head>
 
 <body>
-  <!-- NAVBAR-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Autrefois Charleville</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarColor02">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">BDD</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Infos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Connexion</a>
-      </li>
-    </ul>
-    <!--<form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Rechercher">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Rechercher</button>
-    </form>-->
-  </div>
-</nav>
-<!-- FIN NAVBAR-->
-
+  <?php include "navbar.php"; ?>
 <!-- SLIDER -->
 <section class="slider">
 </section>
@@ -52,7 +23,7 @@
 
 <!-- PRESENTATION-->
 <center>
-<section class="card border-primary mb-5" style="max-width: 40rem;">
+<section class="card border-primary mb-5" id="presentation" style="max-width: 40rem;">
   <div class="card-header">Et si vous pouviez remonter le temps et vivre à
     Charleville il y a 300 ans ?</div>
   <div class="card-body">
@@ -66,12 +37,64 @@
     </p>
   </div>
 </section>
-<button type="button" class="btn mb-5">Jouer !</button>
+<a href="first.php">
+  <button type="button" class="btn mb-5" id="jouer">Jouer !</button>
+</a>
 </center>
 <!-- FIN PRESENTATION-->
 
-  <footer>
-  </footer>
+<!-- CARDS EVENTS-->
+<center>
+<section class="cards row">
+  <div class="card text-white bg-primary mb-3" id="event" style="max-width: 20rem;">
+    <div class="card-header">Mettre ici la photo</div>
+    <div class="card-body">
+      <h4 class="card-title">Organiser un baptême</h4>
+      <p class="card-text">Ajouter la description de l'événement baptême.</p>
+    </div>
+  </div>
+  <div class="card text-white bg-primary mb-3" id="event" style="max-width: 20rem;">
+    <div class="card-header">Mettre ici la photo</div>
+    <div class="card-body">
+      <h4 class="card-title">Organiser un mariage</h4>
+      <p class="card-text">Ajouter la description de l'événement mariage.</p>
+    </div>
+  </div>
+  <div class="card text-white bg-primary mb-3" id="event" style="max-width: 20rem;">
+    <div class="card-header">Mettre ici la photo</div>
+    <div class="card-body">
+      <h4 class="card-title">Organiser des obsèques</h4>
+      <p class="card-text">Ajouter la description de l'événement enterrement.</p>
+    </div>
+  </div>
+</section>
+</center>
+<!-- FIN CARDS EVENTS -->
+
+<!-- PARTIE PROFS -->
+<center>
+<section class="card border-primary mb-5" id="profs" style="max-width: 40rem;">
+  <div class="card-header">Vous êtes professeur et vous voulez faire découvrir
+    Charleville et son histoire à l'aide de la bdd créée par le CNRS à vos élèves ?</div>
+  <div class="card-body">
+    <p class="card-text"> De manière ludique, faites plonger vos élèves au coeur
+      de Charleville du XVIème ou XVIIème siècle en utilisant un outil qui leur
+      permettra d'accéder à toutes les informations récoltées lors des recencements
+      effectués annuellement sur cette période et une liste d'informations complémentaires.
+      Ainsi ils devront chercher en apprenant pour valider les deux étapes permettant
+      de compléter cet atelier : établir la liste des invités et les prestataires de
+      l'époque. Vous pourrez suivre en direct leur parcours et les aider tout au long
+      de cette activité.
+    </p>
+  </div>
+  <center>
+  <button type="button" class="btn mb-5" id="inscription">S'inscrire !</button>
+  </center>
+</section>
+</center>
+<!-- FIN PARTIE PROFS -->
+
+<?php include "footer.php"; ?>
 </body>
 
 </html>

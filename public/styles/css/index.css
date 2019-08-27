@@ -6,14 +6,22 @@
 .slider {
   min-height: 100vh; }
 
-.card {
+#presentation, #profs {
   border: 0.2em solid #854442 !important; }
 
-.btn {
+#event {
+  background-color: #854442 !important; }
+
+#jouer, #inscription {
   color: #fff4e6 !important;
   background-color: #be9b7b !important;
   width: 15em !important;
   font-weight: bold !important;
   font-size: 1.2em !important; }
+
+footer {
+  min-height: 30em;
+  color: #be9b7b !important;
+  background-color: #3C2F2F !important; }
 
 /*# sourceMappingURL=index.css.map */
