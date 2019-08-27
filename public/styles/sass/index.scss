@@ -1,0 +1,24 @@
+@import "colors";
+
+.navbar {
+  color : $wbrown !important;
+  background-color: $maroon !important;
+
+  .nav-link: $wbrown !important;
+}
+
+.slider {
+  min-height: 100vh;
+}
+
+.card {
+  border: 0.2em solid $maroon !important;
+}
+
+.btn {
+  color: $wbrown !important;
+  background-color: $lbrown !important;
+  width: 15em !important;
+  font-weight: bold !important;
+  font-size: 1.2em !important;
+}
