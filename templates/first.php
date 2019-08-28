@@ -16,13 +16,13 @@
 
 <body>
 <!-- CONNEXION BDD -->
-  <?php include "../modele/coBdd.php" ?>
+  <?php include "../modele/coBdd.php"; ?>
 <!-- FIN CONNEXION BDD -->
 
 <!-- APPEL FICHIERS  -->
-  <?php include "../modele/afficheInviteFamille.php" ?>
-  <?php include "../modele/afficheInviteCollegue.php" ?>
-  <?php include "../modele/afficheInviteVoisin.php" ?>
+  <?php include "../modele/afficheInviteFamille.php";
+        include "../modele/afficheInviteCollegue.php";
+        include "../modele/afficheInviteVoisin.php"; ?>
 <!-- FIN APPEL FICHIERS -->
 
 <!-- NAVBAR -->
