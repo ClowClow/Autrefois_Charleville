@@ -15,6 +15,16 @@
 </head>
 
 <body>
+<!-- CONNEXION BDD -->
+  <?php include "../modele/coBdd.php" ?>
+<!-- FIN CONNEXION BDD -->
+
+<!-- APPEL FICHIERS  -->
+  <?php include "../modele/afficheInviteFamille.php" ?>
+  <?php include "../modele/afficheInviteCollegue.php" ?>
+  <?php include "../modele/afficheInviteVoisin.php" ?>
+<!-- FIN APPEL FICHIERS -->
+
 <!-- NAVBAR -->
   <?php include "navbar.php"; ?>
 <!-- FIN NAVBAR -->
@@ -42,6 +52,54 @@
   </div>
 </section>
 <!-- FIN ENTÊTE -->
+
+<!-- CHOIX FAMILLE -->
+<center>
+  <form action="../modele/afficheInviteFamille.php" method="POST">
+    <div class="form-group col-md-6">
+     <label for="choixFamille" id="labelNone">Les membres des deux familles</label>
+     <select class="form-control" id="choixFamille">
+       <option selected>Les membres des deux familles</option>
+       <?php while($donneesFamille = $reqFamille->fetch()) { ?>
+       <option><?php echo $donneesFamille["nom"];?></option>
+       <?php } ?>
+     </select>
+   </div>
+  </form>
+</center>
+<!-- FIN CHOIX FAMILLE -->
+
+<!-- CHOIX COLLEGUE-->
+<center>
+  <form action="../modele/afficheInviteCollegue.php" method="POST">
+    <div class="form-group col-md-6">
+     <label for="choixCollegue" id="labelNone">Les collègues</label>
+     <select class="form-control" id="choixCollegue">
+       <option selected>Les collègues</option>
+       <?php while($donneesCollegue = $reqCollegue->fetch()) { ?>
+       <option><?php echo $affiche["nom"];?></option>
+       <?php } ?>
+     </select>
+   </div>
+  </form>
+</center>
+<!-- FIN CHOIX COLLEGUE -->
+
+<!-- CHOIX VOISINS-->
+<center>
+  <form action="../modele/afficheInviteVoisin.php" method="POST">
+    <div class="form-group col-md-6">
+     <label for="choixVoisin" id="labelNone">Les voisins</label>
+     <select class="form-control" id="choixVoisin">
+       <option selected>Les voisins</option>
+       <?php while($affiche = $collegue->fetch()) { ?>
+       <option><?php echo $affiche["nom"];?></option>
+       <?php } ?>
+     </select>
+   </div>
+  </form>
+</center>
+<!-- FIN CHOIX VOISINS -->
 
 <!-- VALIDATION -->
   <center>
