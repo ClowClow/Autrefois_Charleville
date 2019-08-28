@@ -1,0 +1,34 @@
+@import "colors";
+
+#validation {
+  color: $wbrown !important;
+  background-color: $maroon !important;
+  width: 15em !important;
+  font-weight: bold !important;
+  font-size: 1.2em !important;
+}
+#validation:hover {
+  background-color: $dmaroon !important;
+}
+
+#listInvit {
+  border: 0.2em solid $maroon !important;
+
+  #lady {
+    width: 40em;
+    height: 40em;
+  }
+
+}
+
+.jumbotron {
+  background-color: #fff !important;
+
+  .display-3 {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  #consignes {
+    font-size: 1.5em;
+  }
+}

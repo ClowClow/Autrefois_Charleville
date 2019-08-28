@@ -17,7 +17,7 @@
       target="_blank">BDD</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Infos</a>
+      <a class="nav-link" href="infos.php" target="_blank">Infos</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Connexion</a>

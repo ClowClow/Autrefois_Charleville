@@ -7,11 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Etape 1</title>
+  <title>Etape 2</title>
 
   <link href="../public/styles/css/reset.css" type="text/css" rel="stylesheet"/>
   <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
-  <link href="../public/styles/css/first.css" type="text/css" rel="stylesheet"/>
+  <link href="../public/styles/css/second.css" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -22,21 +22,23 @@
 <!-- ENTÊTE -->
 <section class="d-inline-flex  flex-row flex-wrap justify-content-around col-md-12 m-5">
   <figure class="d-inline-flex flex-col justify-content-center align-items-center col-md-6" id="listInvit">
-    <img src="../public/images/notaires.jpg" id="notaire"
+    <img src="../public/images/champenoise.jpg" id="lady"
     alt="Illustration représentant un registre notarial"/>
   </figure>
   <div class="jumbotron col-md-6">
-    <h1 class="display-3">Etape 1: Créer la liste d'invités !</h1>
-    <p class="lead">Nous sommes en 1750 à Charleville : Nicolas Brion et Marie-Jeanne
-    Rousseaux viennent de publier leurs bans en prévision de leur marriage fixé le
-    7 avril. Ils ont besoin de toi pour les aider à constituer la liste de leurs
-    invités.</p>
+    <h1 class="display-3">Etape 2: Trouver les professionnels !</h1>
+    <p class="lead">La liste des invités est établie, ils viendront tous.
+    Donc il faut à présent trouver les différents professionnels qui leur
+    permettront d'avoir une belle cérémonie. Ils ont besoin de toi pour les aider
+    à constituer la liste de ces différents prestataires.</p>
     <hr class="my-4">
-    <p id="consignes">Tu devras trouver parmi toutes les propositions:<br/>
+    <p id="consignes">Tu devras trouver parmi les propositions:<br/>
       <ul>
-        <li id="consignes"> > Les 10 membres de leurs familles</li>
-        <li id="consignes"> > Leurs 10 voisins</li>
-        <li id="consignes"> > Les 5 collègues</li>
+        <li id="consignes"> > Les officiels pour légaliser le mariage</li>
+        <li id="consignes"> > Les personnes qui fabriquent leur costumes</li>
+        <li id="consignes"> > Les professionnels qui leur fourniront un repas
+        de noces</li>
+        <li id="consignes"> > Les artistes pour organiser la cérémonie profane</li>
       </ul>
     </p>
   </div>
@@ -45,7 +47,7 @@
 
 <!-- VALIDATION -->
   <center>
-    <a href="second.php">
+    <a href="##">
       <button type="button" class="btn mb-5" id="validation">Valider !</button>
     </a>
   </center>
