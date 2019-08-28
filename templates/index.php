@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
   <link href="../public/styles/css/index.css" type="text/css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=eb+garamond|niconne&display=swap" rel="stylesheet">
+
+  
 </head>
 
 <body>
@@ -22,6 +24,8 @@
 
 <!-- SLIDER -->
 <section class="slider">
+  <?php include "slider.php"; ?>
+
 </section>
 <!-- FIN SLIDER-->
 
