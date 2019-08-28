@@ -15,21 +15,23 @@
 </head>
 
 <body>
+
   <!-- CONNEXION BDD -->
-    <?php include "../modele/coBdd.php" ?>
+    <?php include "../modele/coBdd.php"; ?>
   <!-- FIN CONNEXION BDD -->
 
   <!-- APPEL FICHIERS  -->
-    <?php include "../modele/afficheProOfficiels.php" ?>
-    <?php include "../modele/afficheProCostumes.php" ?>
-    <?php include "../modele/afficheProRepas.php" ?>
-    <?php include "../modele/afficheProArtistes.php" ?>
+    <?php include "../modele/afficheProOfficiels.php";
+          include "../modele/afficheProCostumes.php";
+          include "../modele/afficheProRepas.php";
+          include "../modele/afficheProArtistes.php";
+    ?>
   <!-- FIN APPEL FICHIERS -->
 
   <!-- NAVBAR -->
     <?php include "navbar.php"; ?>
   <!-- FIN NAVBAR -->
-
+  
 <!-- ENTÊTE -->
 <section class="d-inline-flex  flex-row flex-wrap justify-content-around col-md-12 m-5">
   <figure class="d-inline-flex flex-col justify-content-center align-items-center col-md-6" id="listInvit">
