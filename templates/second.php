@@ -66,7 +66,7 @@
     <div class="form-group col-md-6" >
 
      <label for="choixOfficiels" id="labelNone">Les officiels des 2 familles</label>
-           <select class="form-control selectpicker show-tick" id="choixOfficiels" >
+           <select class="form-control selectpicker show-tick" multiple id="choixOfficiels" >
        <option selected>Les officiels des 2 familles</option>
        <?php while($donneesOfficiel = $reqOfficiel->fetch()) { ?>
        <option><?php echo $donneesOfficiel["nom"];?></option>
@@ -86,7 +86,7 @@
 
     <div class="form-group col-md-6">
      <label for="choixCostumes" id="labelNone">Les personnes pour les costumes</label>
-     <select class="form-control selectpicker show-tick" id="choixCostumes">
+     <select class="form-control selectpicker show-tick" multiple id="choixCostumes">
        <option disabled selected>Les personnes pour les costumes</option>
        <?php while($donneesCostume = $reqCostume->fetch()) { ?>
        <option><?php echo $donneesCostume["nom"];?></option>
@@ -106,7 +106,7 @@
 
     <div class="form-group col-md-6">
      <label for="choixVoisin" id="labelNone">Les professionnels pour le repas</label>
-     <select class="form-control selectpicker show-tick" id="choixVoisin">
+     <select class="form-control selectpicker show-tick" multiple id="choixVoisin">
        <option disabled selected>Les professionnels pour le repas</option>
        <?php while($donneesRepas = $reqRepas->fetch()) { ?>
        <option><?php echo $donneesRepas["nom"];?></option>
@@ -125,7 +125,7 @@
     <div class="d-flex justify-content-center">
       <div class="form-group col-md-6">
        <label for="choixArtistes" id="labelNone">Les artistes</label>
-       <select class="form-control selectpicker show-tick" id="choixArtistes">
+       <select class="form-control selectpicker show-tick" multiple id="choixArtistes">
          <option disabled selected>Les artistes</option>
          <?php while($donneesArtiste = $reqArtiste->fetch()) { ?>
          <option><?php echo $donneesArtiste["nom"];?></option>
