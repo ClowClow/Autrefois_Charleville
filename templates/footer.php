@@ -2,7 +2,7 @@
 <link href="../public/styles/css/index.css" type="text/css" rel="stylesheet"/>
 <footer>
   <!-- FOOTER PART1-->
-  <section class="d-inline-flex  flex-row flex-wrap justify-content-around col-md-12 m-0" id="foot1">
+  <section class="d-inline-flex  flex-row flex-wrap justify-content-around align-items-center col-md-12 m-0" id="foot1">
     <img class="logoArdennesMet" src="../public/images/logo/ardennesMet.svg.png" alt="logo d'Ardennes Métropole"/>
     <img class="logoHackArdennes" src="../public/images/logo/hackardennes.svg" alt="logo de hackArdennes"/>
     <img class="logoSimplon" src="../public/images/logo/logoSimplon.png" alt="logo de simplon"/>
@@ -29,7 +29,7 @@
       <li>Liens utiles</li>
       <li>Liens utiles</li>
     </ul>
-    
+
   </section>
   <!-- FIN FOOTER PART2-->
 </footer>
