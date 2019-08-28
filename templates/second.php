@@ -31,7 +31,7 @@
   <!-- NAVBAR -->
     <?php include "navbar.php"; ?>
   <!-- FIN NAVBAR -->
-  
+
 <!-- ENTÊTE -->
 <section class="d-inline-flex  flex-row flex-wrap justify-content-around col-md-12 m-5">
   <figure class="d-inline-flex flex-col justify-content-center align-items-center col-md-6" id="listInvit">
@@ -61,15 +61,19 @@
 <!-- CHOIX OFFICIELS -->
 <center>
   <form action="../modele/afficheProOfficiels.php" method="POST">
-    <div class="form-group col-md-6">
+    <div class="d-flex justify-content-center">
+    <div class="form-group col-md-6" >
+
      <label for="choixOfficiels" id="labelNone">Les officiels des 2 familles</label>
-     <select class="form-control" id="choixOfficiels">
+           <select class="form-control" id="choixOfficiels" >
        <option selected>Les officiels des 2 familles</option>
        <?php while($donneesOfficiel = $reqOfficiel->fetch()) { ?>
        <option><?php echo $donneesOfficiel["nom"];?></option>
        <?php } ?>
      </select>
-   </div>
+     </div>
+     <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="As-tu pensé à regarder les infos sur les mariages civils?">?</p>
+     </div>
   </form>
 </center>
 <!-- FIN CHOIX OFFICIELS -->
@@ -77,6 +81,8 @@
 <!-- CHOIX COSTUMES-->
 <center>
   <form action="../modele/afficheProCostumes.php" method="POST">
+    <div class="d-flex justify-content-center">
+
     <div class="form-group col-md-6">
      <label for="choixCostumes" id="labelNone">Les personnes pour les costumes</label>
      <select class="form-control" id="choixCostumes">
@@ -85,6 +91,8 @@
        <option><?php echo $donneesCostume["nom"];?></option>
        <?php } ?>
      </select>
+     </div>
+     <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Différents corps de métier peuvent être ici utiles">?</p>
    </div>
   </form>
 </center>
@@ -93,6 +101,8 @@
 <!-- CHOIX REPAS-->
 <center>
   <form action="../modele/afficheProRepas.php" method="POST">
+    <div class="d-flex justify-content-center">
+
     <div class="form-group col-md-6">
      <label for="choixVoisin" id="labelNone">Les professionnels pour le repas</label>
      <select class="form-control" id="choixVoisin">
@@ -101,6 +111,8 @@
        <option><?php echo $donneesRepas["nom"];?></option>
        <?php } ?>
      </select>
+     </div>
+     <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Penses bien à vérifier les dates de naissances">?</p>
    </div>
   </form>
 </center>
@@ -109,6 +121,8 @@
 <!-- CHOIX ARTISTES-->
 <center>
   <form action="../modele/afficheProArtistes.php" method="POST">
+    <div class="d-flex justify-content-center">
+
     <div class="form-group col-md-6">
      <label for="choixArtistes" id="labelNone">Les artistes</label>
      <select class="form-control" id="choixArtistes">
@@ -117,6 +131,8 @@
        <option><?php echo $donneesArtiste["nom"];?></option>
        <?php } ?>
      </select>
+     </div>
+     <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Attention, il y a peut-être un piège...">?</p>
    </div>
   </form>
 </center>
