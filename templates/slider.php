@@ -26,14 +26,13 @@
   <body>
 
     <!-- SLIDER EXAMPLE -->
-      <section class="slider">
         <article class="content">
 
 
       <div id="rev_slider_1063_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container"
       data-alias="highlight-showcase122"
       data-source="gallery"
-      style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:50px;">
+      style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:20px;">
       <!-- START REVOLUTION SLIDER 5.4.1 auto mode -->
         <div id="rev_slider_1063_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
           <ul>	<!-- SLIDE 1 -->
@@ -469,7 +468,6 @@
 
 
   				</article>
-  		</section>
   </body>
 
 </html>
