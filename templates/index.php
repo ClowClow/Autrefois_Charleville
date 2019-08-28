@@ -12,8 +12,9 @@
   <link href="../public/styles/css/reset.css" type="text/css" rel="stylesheet"/>
   <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
   <link href="../public/styles/css/index.css" type="text/css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=eb+garamond|niconne&display=swap" rel="stylesheet">
-
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Niconne&display=swap');
+  </style>
 
 </head>
 
@@ -89,7 +90,7 @@
 <center>
 <section class="card border-primary mb-5" id="profs" style="max-width: 40rem;">
   <div class="card-header" id="BGless">Vous êtes professeur et vous voulez faire découvrir
-    Charleville et son histoire à l'aide de la bdd créée par le CNRS à vos élèves ?</div>
+    Charleville et son histoire à l'aide de la base de données créées à partir des nombreux recensemenst à vos élèves ?</div>
   <div class="card-body">
     <p class="card-text"> De manière ludique, faites plonger vos élèves au coeur
       de Charleville du XVIème ou XVIIème siècle en utilisant un outil qui leur

@@ -2,7 +2,7 @@
 <link href="../public/styles/css/index.css" type="text/css" rel="stylesheet"/>
 <!-- NAVBAR-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-<a class="navbar-brand" id="navTitre" href="#">Autrefois Charleville</a>
+<a class="navbar-brand" id="navTitre" href="index.php">Autrefois Charleville</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -10,17 +10,17 @@
 <div class="collapse navbar-collapse" id="navbarColor02">
   <ul class="navbar-nav mr-auto">
     <li class="nav-item active">
-      <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
+      <a class="nav-link font-weight-bolder" href="index.php">Accueil <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://historique.simplon-charleville.fr/"
+      <a class="nav-link font-weight-bolder" href="https://historique.simplon-charleville.fr/"
       target="_blank">BDD</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="infos.php" target="_blank">Infos</a>
+      <a class="nav-link font-weight-bolder" href="infos.php" target="_blank">Infos</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Connexion</a>
+      <a class="nav-link font-weight-bolder" href="#">Connexion</a>
     </li>
   </ul>
   <!--<form class="form-inline my-2 my-lg-0">

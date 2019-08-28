@@ -4,13 +4,17 @@
   .navbar .nav-link {
     color: #fff4e6 !important; }
   .navbar .navbar-brand {
-    color: #fff4e6 !important;
+    color: #be9b7b !important;
     font-family: 'Niconne', cursive !important;
-    font-size: 2em !important; }
+    font-size: 2em !important;
+    padding-bottom: 0.6em; }
+  .navbar .navbar-nav {
+    font-size: 1.5em !important; }
 
 .card-header {
-  font-size: 1.2em !important;
-  font-weight: bold !important; }
+  font-size: 1.5em !important;
+  font-weight: bold !important;
+  font-family: 'EB Garamond', serif; }
 
 #BGless {
   background-color: #fff !important; }
@@ -52,9 +56,10 @@
     height: 7em; }
 
 #foot2 {
-  min-height: 20em !important;
+  min-height: 10em !important;
   color: #be9b7b !important;
   background-color: #3C2F2F !important;
-  margin: 0 auto !important; }
+  margin: 0 auto !important;
+  padding-top: 2em; }
 
 /*# sourceMappingURL=index.css.map */

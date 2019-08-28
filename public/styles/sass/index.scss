@@ -8,16 +8,22 @@
   }
 
   .navbar-brand {
-    color: $wbrown !important;
+    color: $lbrown !important;
     font-family: 'Niconne', cursive !important;
     font-size: 2em !important;
+    padding-bottom: 0.6em;
+  }
+
+  .navbar-nav {
+    font-size: 1.5em !important;
   }
 }
 
 
 .card-header {
-  font-size: 1.2em !important;
+  font-size: 1.5em !important;
   font-weight: bold !important;
+  font-family: 'EB Garamond', serif;
 }
 #BGless {
   background-color: #fff !important;
@@ -67,8 +73,9 @@
   }
 }
 #foot2 {
-  min-height: 20em !important;
+  min-height: 10em !important;
   color: $lbrown !important;
   background-color: $dbrown !important;
   margin: 0 auto !important;
+  padding-top: 2em;
 }

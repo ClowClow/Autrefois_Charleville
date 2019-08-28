@@ -12,9 +12,24 @@
 
   <!-- FOOTER PART2-->
   <section class="d-inline-flex  flex-row flex-wrap justify-content-around col-md-12 m-0" id="foot2">
+    <ul>
+      <li>Liens utiles</li>
+      <li>Liens utiles</li>
+      <li>Liens utiles</li>
+      <li>Liens utiles</li>
+    </ul>
+
     <center>
       <h2>Autrefois Charleville</h2>
     </center>
+
+    <ul>
+      <li>Liens utiles</li>
+      <li>Liens utiles</li>
+      <li>Liens utiles</li>
+      <li>Liens utiles</li>
+    </ul>
+    
   </section>
   <!-- FIN FOOTER PART2-->
 </footer>

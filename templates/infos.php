@@ -12,6 +12,9 @@
   <link href="../public/styles/css/reset.css" type="text/css" rel="stylesheet"/>
   <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
   <link href="../public/styles/css/infos.css" type="text/css" rel="stylesheet"/>
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Niconne&display=swap');
+  </style>
 </head>
 
 <body>
