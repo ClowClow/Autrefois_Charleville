@@ -193,7 +193,7 @@
         			 data-paddingright="[10,0,0,0]"
         			 data-paddingbottom="[0,0,0,0]"
         			 data-paddingleft="[10,0,0,0]"
-        			 style="z-index: 9; min-width: 397px; max-width: 397px; white-space: normal; text-transform:left;background-color: #be9b7b; color: #854442; border-radius: 0.1em;padding: 0.2em;">AUTREFOIS CHARLEVILLE </div>
+        			 style="z-index: 9; min-width: 397px; max-width: 397px; white-space: normal; text-transform:left;background-color: #be9b7b; color: #854442; border-radius: 0.1em;padding: 0.2em;font-size:'EB Garamond', serif;">Autrefois Charleville</div>
 
     		<!-- LAYER NR. 6 -->
         		<div class="tp-caption   tp-resizeme"
@@ -303,7 +303,7 @@
         			 data-paddingright="[10,0,0,0]"
         			 data-paddingbottom="[0,0,0,0]"
         			 data-paddingleft="[10,0,0,0]"
-        			 style="z-index: 13; min-width: 364px; max-width: 364px; max-width: 133px; max-width: 133px; white-space: normal; color: white;text-transform:left;background-color: #be9b7b; color: #854442; border-radius: 0.1em;padding: 0.2em;">AUTREFOIS CHARLEVILLE</div>
+        			 style="z-index: 13; min-width: 364px; max-width: 364px; max-width: 133px; max-width: 133px; white-space: normal; color: white;text-transform:left;background-color: #be9b7b; color: #854442; border-radius: 0.1em;padding: 0.2em;font-size:'EB Garamond', serif;">Autrefois Charleville</div>
 
     		<!-- LAYER NR. 10 -->
         		<div class="tp-caption   tp-resizeme"
