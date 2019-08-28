@@ -64,6 +64,11 @@
   color: #be9b7b !important;
   background-color: #3C2F2F !important;
   margin: 0 auto !important;
-  padding-top: 2em; }
+  padding-top: 2em;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5em; }
+  #foot2 h2 {
+    font-family: 'Niconne', cursive !important;
+    font-size: 3em; }
 
 /*# sourceMappingURL=index.css.map */

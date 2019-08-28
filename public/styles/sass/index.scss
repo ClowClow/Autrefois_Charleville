@@ -81,4 +81,10 @@
   background-color: $dbrown !important;
   margin: 0 auto !important;
   padding-top: 2em;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5em;
+  & h2 {
+    font-family: 'Niconne', cursive !important;
+    font-size: 3em;
+  }
 }
