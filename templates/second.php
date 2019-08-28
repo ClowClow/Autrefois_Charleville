@@ -69,7 +69,7 @@
     <select class="form-control selectpicker show-tick" multiple
       title="Les officiels des 2 familles" id="choixOfficiels" >
        <?php while($donneesOfficiel = $reqOfficiel->fetch()) { ?>
-       <option><?php echo $donneesOfficiel["nom"];?></option>
+       <option><?php echo $donneesOfficiel["nom"].' '.$donneesOfficiel["prenom"];?></option>
        <?php } ?>
      </select>
      </div>
@@ -89,7 +89,7 @@
      <select class="form-control selectpicker show-tick" multiple
       title="Les personnes pour les costumes" id="choixCostumes">
        <?php while($donneesCostume = $reqCostume->fetch()) { ?>
-       <option><?php echo $donneesCostume["nom"];?></option>
+       <option><?php echo $donneesCostume["nom"].' '.$donneesCostume["prenom"];?></option>
        <?php } ?>
      </select>
      </div>
@@ -109,7 +109,7 @@
      <select class="form-control selectpicker show-tick" multiple
       title="Les professionnels pour le repas"id="choixVoisin">
        <?php while($donneesRepas = $reqRepas->fetch()) { ?>
-       <option><?php echo $donneesRepas["nom"];?></option>
+       <option><?php echo $donneesRepas["nom"].' '.$donneesRepas["prenom"];?></option>
        <?php } ?>
      </select>
      </div>
@@ -128,7 +128,7 @@
        <select class="form-control selectpicker show-tick" multiple
        title="Les artistes" id="choixArtistes">
          <?php while($donneesArtiste = $reqArtiste->fetch()) { ?>
-         <option><?php echo $donneesArtiste["nom"];?></option>
+         <option><?php echo $donneesArtiste["nom"].' '.$donneesArtiste["prenom"];?></option>
          <?php } ?>
        </select>
        </div>

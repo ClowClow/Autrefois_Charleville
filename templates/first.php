@@ -64,7 +64,7 @@
        <select class="form-control selectpicker show-tick" multiple
         title="Les membres des deux familles" id="choixFamille">
          <?php while($donneesFamille = $reqFamille->fetch()) { ?>
-         <option type="checkbox"><?php echo $donneesFamille["nom"];?></option>
+         <option type="checkbox"><?php echo $donneesFamille["nom"].' '.$donneesFamille["prenom"];?></option>
          <?php } ?>
        </select>
       </div>
@@ -83,7 +83,7 @@
        <select class="form-control selectpicker show-tick" multiple
         title="Les collègues" id="choixCollegue">
          <?php while($donneesCollegue = $reqCollegue->fetch()) { ?>
-         <option><?php echo $donneesCollegue["nom"];?></option>
+         <option><?php echo $donneesCollegue["nom"].' '.$donneesCollegue["prenom"];?></option>
          <?php } ?>
        </select>
      </div>
@@ -102,7 +102,7 @@
        <select class="form-control selectpicker show-tick" multiple
         title="Les voisins" id="choixVoisin">
          <?php while($donneesVoisin = $reqVoisin->fetch()) { ?>
-         <option><?php echo $donneesVoisin["nom"];?></option>
+         <option><?php echo $donneesVoisin["nom"].' '.$donneesVoisin["prenom"];?></option>
          <?php } ?>
        </select>
      </div>
