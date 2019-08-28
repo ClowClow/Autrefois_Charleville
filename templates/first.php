@@ -15,9 +15,13 @@
 </head>
 
 <body>
+<!-- NAVBAR -->
   <?php include "navbar.php"; ?>
-<section class="row">
-  <figure class="col-md-6">
+<!-- FIN NAVBAR -->
+
+<!-- ENTÊTE -->
+<section class="d-inline-flex  flex-row flex-wrap justify-content-around col-md-12 m-5">
+  <figure class="col-md-6" id="listInvit">
   </figure>
   <div class="jumbotron col-md-6">
     <h1 class="display-3">Etape 1: Créer la liste d'invités !</h1>
@@ -26,21 +30,28 @@
     7 avril. Ils ont besoin de toi pour les aider à constituer la liste de leurs
     invités.</p>
     <hr class="my-4">
-    <p>Tu devras trouver parmi toutes les propositions:<br/>
+    <p id="consignes">Tu devras trouver parmi toutes les propositions:<br/>
       <ul>
-        <li> > Les 10 membres de leurs familles</li>
-        <li> > Leurs 10 voisins</li>
-        <li> > Les 5 collègues</li>
+        <li id="consignes"> > Les 10 membres de leurs familles</li>
+        <li id="consignes"> > Leurs 10 voisins</li>
+        <li id="consignes"> > Les 5 collègues</li>
       </ul>
     </p>
   </div>
 </section>
+<!-- FIN ENTÊTE -->
+
+<!-- VALIDATION -->
   <center>
     <a href="##">
       <button type="button" class="btn mb-5" id="validation">Valider !</button>
     </a>
   </center>
+  <!-- FIN VALIDATION -->
+
+  <!-- FOOTER -->
   <?php include "footer.php"; ?>
+  <!-- FIN FOOTER -->
 </body>
 
 </html>

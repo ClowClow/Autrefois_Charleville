@@ -12,10 +12,14 @@
   <link href="../public/styles/css/reset.css" type="text/css" rel="stylesheet"/>
   <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
   <link href="../public/styles/css/index.css" type="text/css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=eb+garamond|niconne&display=swap" rel="stylesheet">
 </head>
 
 <body>
+<!-- NAVBAR -->
   <?php include "navbar.php"; ?>
+<!-- FIN NAVBAR -->
+
 <!-- SLIDER -->
 <section class="slider">
 </section>
@@ -45,22 +49,22 @@
 
 <!-- CARDS EVENTS-->
 <center>
-<section class="cards row">
-  <div class="card text-white bg-primary mb-3" id="event" style="max-width: 20rem;">
+<section class="d-inline-flex  flex-row flex-wrap justify-content-center col-md-12 mb-3">
+  <div class="card text-white bg-primary m-3" id="event" style="max-width: 20rem;">
     <div class="card-header">Mettre ici la photo</div>
     <div class="card-body">
       <h4 class="card-title">Organiser un baptême</h4>
       <p class="card-text">Ajouter la description de l'événement baptême.</p>
     </div>
   </div>
-  <div class="card text-white bg-primary mb-3" id="event" style="max-width: 20rem;">
+  <div class="card text-white bg-primary m-3" id="event" style="max-width: 20rem;">
     <div class="card-header">Mettre ici la photo</div>
     <div class="card-body">
       <h4 class="card-title">Organiser un mariage</h4>
       <p class="card-text">Ajouter la description de l'événement mariage.</p>
     </div>
   </div>
-  <div class="card text-white bg-primary mb-3" id="event" style="max-width: 20rem;">
+  <div class="card text-white bg-primary m-3" id="event" style="max-width: 20rem;">
     <div class="card-header">Mettre ici la photo</div>
     <div class="card-body">
       <h4 class="card-title">Organiser des obsèques</h4>
@@ -94,7 +98,9 @@
 </center>
 <!-- FIN PARTIE PROFS -->
 
+<!-- FOOTER -->
 <?php include "footer.php"; ?>
+<!-- FIN FOOTER -->
 </body>
 
 </html>

@@ -3,14 +3,26 @@
 .navbar {
   color : $wbrown !important;
   background-color: $maroon !important;
+  .nav-link{
+    color: $wbrown !important;
+  }
 
-  .nav-link: $wbrown !important;
+  .navbar-brand {
+    color: $wbrown !important;
+    font-family: 'Niconne', cursive !important;
+    font-size: 2em !important;
+  }
 }
 
 .slider {
   min-height: 100vh;
 }
 
+.card-header {
+  background-color: #fff !important;
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+}
 #presentation, #profs{
   border: 0.2em solid $maroon !important;
 }
@@ -27,8 +39,35 @@
   font-size: 1.2em !important;
 }
 
-footer {
-  min-height: 30em;
+#foot1 {
+  background-color: #fff;
+  border-top: 0.2em solid $dbrown;
+  margin: 0 auto !important;
+
+  .logoSimplon {
+    width: 8em;
+    height: 8em;
+    padding: 1em;
+  }
+  .logoArdennesMet {
+    width: 25em;
+    height: 8em;
+    padding: 1em;
+  }
+  .logoHackArdennes {
+    width: 20em;
+    height: 9em;
+    padding: 1em;
+  }
+
+  .logoRT {
+    width: 20em;
+    height: 7em;
+  }
+}
+#foot2 {
+  min-height: 20em !important;
   color: $lbrown !important;
   background-color: $dbrown !important;
+  margin: 0 auto !important;
 }

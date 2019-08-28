@@ -5,4 +5,15 @@
   font-weight: bold !important;
   font-size: 1.2em !important; }
 
+#listInvit {
+  border: 0.2em solid #854442 !important; }
+
+.jumbotron {
+  background-color: #fff !important; }
+  .jumbotron .display-3 {
+    font-size: 2.5em;
+    font-weight: bold; }
+  .jumbotron #consignes {
+    font-size: 1.5em; }
+
 /*# sourceMappingURL=first.css.map */

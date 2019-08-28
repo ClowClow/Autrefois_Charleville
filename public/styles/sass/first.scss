@@ -7,3 +7,22 @@
   font-weight: bold !important;
   font-size: 1.2em !important;
 }
+#validation:hover {
+
+}
+
+#listInvit {
+  border: 0.2em solid $maroon !important;
+}
+
+.jumbotron {
+  background-color: #fff !important;
+
+  .display-3 {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  #consignes {
+    font-size: 1.5em;
+  }
+}
