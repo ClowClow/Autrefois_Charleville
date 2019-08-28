@@ -92,7 +92,7 @@
      <label for="choixVoisin" id="labelNone">Les voisins</label>
      <select class="form-control" id="choixVoisin">
        <option selected>Les voisins</option>
-       <?php while($affiche = $collegue->fetch()) { ?>
+       <?php while($donneesVoisin = $reqVoisin->fetch()) { ?>
        <option><?php echo $affiche["nom"];?></option>
        <?php } ?>
      </select>
