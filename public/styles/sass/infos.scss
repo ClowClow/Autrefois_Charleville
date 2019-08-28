@@ -34,3 +34,25 @@
   display: flex !important;
   justify-content: center !important;
 }
+
+/********pour le collapse*************/
+.collapsible:after {
+content: '\002B';
+color: white;
+font-weight: bold;
+font-size: 2em;
+float: right;
+background-color: $maroon;
+padding: 0 0.4em 0em 0.4em;
+border-radius: 47%;
+}
+
+.active:after {
+content: "\2212";
+}
+
+.art-content {
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+}
