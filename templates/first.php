@@ -61,7 +61,7 @@
      <select class="form-control" id="choixFamille">
        <option selected>Les membres des deux familles</option>
        <?php while($donneesFamille = $reqFamille->fetch()) { ?>
-       <option><?php echo $donneesFamille["nom"];?></option>
+       <option type="checkbox"><?php echo $donneesFamille["nom"];?></option>
        <?php } ?>
      </select>
    </div>
@@ -77,7 +77,7 @@
      <select class="form-control" id="choixCollegue">
        <option selected>Les collègues</option>
        <?php while($donneesCollegue = $reqCollegue->fetch()) { ?>
-       <option><?php echo $affiche["nom"];?></option>
+       <option><?php echo $donneesCollegue["nom"];?></option>
        <?php } ?>
      </select>
    </div>
@@ -93,7 +93,7 @@
      <select class="form-control" id="choixVoisin">
        <option selected>Les voisins</option>
        <?php while($donneesVoisin = $reqVoisin->fetch()) { ?>
-       <option><?php echo $affiche["nom"];?></option>
+       <option><?php echo $donneesVoisin["nom"];?></option>
        <?php } ?>
      </select>
    </div>

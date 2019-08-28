@@ -15,9 +15,20 @@
 </head>
 
 <body>
-<!-- NAVBAR -->
-  <?php include "navbar.php"; ?>
-<!-- FIN NAVBAR -->
+  <!-- CONNEXION BDD -->
+    <?php include "../modele/coBdd.php" ?>
+  <!-- FIN CONNEXION BDD -->
+
+  <!-- APPEL FICHIERS  -->
+    <?php include "../modele/afficheProOfficiels.php" ?>
+    <?php include "../modele/afficheProCostumes.php" ?>
+    <?php include "../modele/afficheProRepas.php" ?>
+    <?php include "../modele/afficheProArtistes.php" ?>
+  <!-- FIN APPEL FICHIERS -->
+
+  <!-- NAVBAR -->
+    <?php include "navbar.php"; ?>
+  <!-- FIN NAVBAR -->
 
 <!-- ENTÊTE -->
 <section class="d-inline-flex  flex-row flex-wrap justify-content-around col-md-12 m-5">
@@ -44,6 +55,70 @@
   </div>
 </section>
 <!-- FIN ENTÊTE -->
+
+<!-- CHOIX OFFICIELS -->
+<center>
+  <form action="../modele/afficheProOfficiels.php" method="POST">
+    <div class="form-group col-md-6">
+     <label for="choixOfficiels" id="labelNone">Les officiels des 2 familles</label>
+     <select class="form-control" id="choixOfficiels">
+       <option selected>Les officiels des 2 familles</option>
+       <?php while($donneesOfficiel = $reqOfficiel->fetch()) { ?>
+       <option><?php echo $donneesOfficiel["nom"];?></option>
+       <?php } ?>
+     </select>
+   </div>
+  </form>
+</center>
+<!-- FIN CHOIX OFFICIELS -->
+
+<!-- CHOIX COSTUMES-->
+<center>
+  <form action="../modele/afficheProCostumes.php" method="POST">
+    <div class="form-group col-md-6">
+     <label for="choixCostumes" id="labelNone">Les personnes pour les costumes</label>
+     <select class="form-control" id="choixCostumes">
+       <option selected>Les personnes pour les costumes</option>
+       <?php while($donneesCostume = $reqCostume->fetch()) { ?>
+       <option><?php echo $donneesCostume["nom"];?></option>
+       <?php } ?>
+     </select>
+   </div>
+  </form>
+</center>
+<!-- FIN CHOIX COSTUMES -->
+
+<!-- CHOIX REPAS-->
+<center>
+  <form action="../modele/afficheProRepas.php" method="POST">
+    <div class="form-group col-md-6">
+     <label for="choixVoisin" id="labelNone">Les professionnels pour le repas</label>
+     <select class="form-control" id="choixVoisin">
+       <option selected>Les professionnels pour le repas</option>
+       <?php while($donneesRepas = $reqRepas->fetch()) { ?>
+       <option><?php echo $donneesRepas["nom"];?></option>
+       <?php } ?>
+     </select>
+   </div>
+  </form>
+</center>
+<!-- FIN CHOIX REPAS -->
+
+<!-- CHOIX ARTISTES-->
+<center>
+  <form action="../modele/afficheProArtistes.php" method="POST">
+    <div class="form-group col-md-6">
+     <label for="choixArtistes" id="labelNone">Les artistes</label>
+     <select class="form-control" id="choixArtistes">
+       <option selected>Les artistes</option>
+       <?php while($donneesArtiste = $reqArtiste->fetch()) { ?>
+       <option><?php echo $donneesArtiste["nom"];?></option>
+       <?php } ?>
+     </select>
+   </div>
+  </form>
+</center>
+<!-- FIN CHOIX ARTISTES -->
 
 <!-- VALIDATION -->
   <center>
