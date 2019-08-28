@@ -26,14 +26,14 @@
 #labelNone {
   display: none; }
 
-.form-control {
-  color: #fff4e6;
-  background-color: #be9b7b;
+/*#choixArtistes {
+  color: $wbrown;
+  background-color: $lbrown;
   font-size: 1.2em !important;
   font-weight: bold;
   padding-left: 1em !important;
-  margin-bottom: 3em; }
-
+  margin-bottom: 3em;
+}*/
 .p-tlp {
   font-size: 2em;
   color: #854442;

@@ -10,7 +10,6 @@
   <title>Etape 1</title>
 
   <link href="../public/styles/css/reset.css" type="text/css" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
   <link href="../public/styles/css/first.css" type="text/css" rel="stylesheet"/>
@@ -59,15 +58,18 @@
 <!-- CHOIX FAMILLE -->
 <center>
   <form action="../modele/afficheInviteFamille.php" method="POST">
-    <div class="form-group col-md-6">
-     <label for="choixFamille" id="labelNone">Les membres des deux familles</label>
-     <select class="form-control selectpicker show-tick" id="choixFamille">
-       <option selected>Les membres des deux familles</option>
-       <?php while($donneesFamille = $reqFamille->fetch()) { ?>
-       <option type="checkbox"><?php echo $donneesFamille["nom"];?></option>
-       <?php } ?>
-     </select>
-   </div>
+    <div class="d-flex justify-content-center">
+      <div class="form-group col-md-6">
+       <label for="choixFamille" id="labelNone">Les membres des deux familles</label>
+       <select class="form-control selectpicker show-tick" id="choixFamille">
+         <option disabled selected>Les membres des deux familles</option>
+         <?php while($donneesFamille = $reqFamille->fetch()) { ?>
+         <option type="checkbox"><?php echo $donneesFamille["nom"];?></option>
+         <?php } ?>
+       </select>
+      </div>
+      <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="">?</p>
+    </div>
   </form>
 </center>
 <!-- FIN CHOIX FAMILLE -->
@@ -75,14 +77,17 @@
 <!-- CHOIX COLLEGUE-->
 <center>
   <form action="../modele/afficheInviteCollegue.php" method="POST">
-    <div class="form-group col-md-6">
-     <label for="choixCollegue" id="labelNone">Les collègues</label>
-     <select class="form-control" id="choixCollegue">
-       <option selected>Les collègues</option>
-       <?php while($donneesCollegue = $reqCollegue->fetch()) { ?>
-       <option><?php echo $donneesCollegue["nom"];?></option>
-       <?php } ?>
-     </select>
+    <div class="d-flex justify-content-center">
+      <div class="form-group col-md-6">
+       <label for="choixCollegue" id="labelNone">Les collègues</label>
+       <select class="form-control selectpicker show-tick" id="choixCollegue">
+         <option disabled selected>Les collègues</option>
+         <?php while($donneesCollegue = $reqCollegue->fetch()) { ?>
+         <option><?php echo $donneesCollegue["nom"];?></option>
+         <?php } ?>
+       </select>
+     </div>
+     <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="">?</p>
    </div>
   </form>
 </center>
@@ -91,15 +96,18 @@
 <!-- CHOIX VOISINS-->
 <center>
   <form action="../modele/afficheInviteVoisin.php" method="POST">
-    <div class="form-group col-md-6">
-     <label for="choixVoisin" id="labelNone">Les voisins</label>
-     <select class="form-control" id="choixVoisin">
-       <option selected>Les voisins</option>
-       <?php while($donneesVoisin = $reqVoisin->fetch()) { ?>
-       <option><?php echo $donneesVoisin["nom"];?></option>
-       <?php } ?>
-     </select>
-   </div>
+    <div class="d-flex justify-content-center">
+      <div class="form-group col-md-6">
+       <label for="choixVoisin" id="labelNone">Les voisins</label>
+       <select class="form-control selectpicker show-tick" id="choixVoisin">
+         <option disabled selected>Les voisins</option>
+         <?php while($donneesVoisin = $reqVoisin->fetch()) { ?>
+         <option><?php echo $donneesVoisin["nom"];?></option>
+         <?php } ?>
+       </select>
+     </div>
+     <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="">?</p>
+    </div>
   </form>
 </center>
 <!-- FIN CHOIX VOISINS -->
@@ -115,12 +123,17 @@
   <!-- FOOTER -->
   <?php include "footer.php"; ?>
   <!-- FIN FOOTER -->
-  <script
-			  src="https://code.jquery.com/jquery-3.4.1.js"
-			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-			  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- JQUERY -->
+<script src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<!-- JS BOOTSTRAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
+<!-- JS BOOTSTRAP SELECT -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
 </body>
 

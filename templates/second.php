@@ -11,6 +11,7 @@
 
   <link href="../public/styles/css/reset.css" type="text/css" rel="stylesheet"/>
   <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
   <link href="../public/styles/css/second.css" type="text/css" rel="stylesheet"/>
 </head>
 
@@ -65,7 +66,7 @@
     <div class="form-group col-md-6" >
 
      <label for="choixOfficiels" id="labelNone">Les officiels des 2 familles</label>
-           <select class="form-control" id="choixOfficiels" >
+           <select class="form-control selectpicker show-tick" id="choixOfficiels" >
        <option selected>Les officiels des 2 familles</option>
        <?php while($donneesOfficiel = $reqOfficiel->fetch()) { ?>
        <option><?php echo $donneesOfficiel["nom"];?></option>
@@ -85,8 +86,8 @@
 
     <div class="form-group col-md-6">
      <label for="choixCostumes" id="labelNone">Les personnes pour les costumes</label>
-     <select class="form-control" id="choixCostumes">
-       <option selected>Les personnes pour les costumes</option>
+     <select class="form-control selectpicker show-tick" id="choixCostumes">
+       <option disabled selected>Les personnes pour les costumes</option>
        <?php while($donneesCostume = $reqCostume->fetch()) { ?>
        <option><?php echo $donneesCostume["nom"];?></option>
        <?php } ?>
@@ -105,8 +106,8 @@
 
     <div class="form-group col-md-6">
      <label for="choixVoisin" id="labelNone">Les professionnels pour le repas</label>
-     <select class="form-control" id="choixVoisin">
-       <option selected>Les professionnels pour le repas</option>
+     <select class="form-control selectpicker show-tick" id="choixVoisin">
+       <option disabled selected>Les professionnels pour le repas</option>
        <?php while($donneesRepas = $reqRepas->fetch()) { ?>
        <option><?php echo $donneesRepas["nom"];?></option>
        <?php } ?>
@@ -122,18 +123,17 @@
 <center>
   <form action="../modele/afficheProArtistes.php" method="POST">
     <div class="d-flex justify-content-center">
-
-    <div class="form-group col-md-6">
-     <label for="choixArtistes" id="labelNone">Les artistes</label>
-     <select class="form-control" id="choixArtistes">
-       <option selected>Les artistes</option>
-       <?php while($donneesArtiste = $reqArtiste->fetch()) { ?>
-       <option><?php echo $donneesArtiste["nom"];?></option>
-       <?php } ?>
-     </select>
+      <div class="form-group col-md-6">
+       <label for="choixArtistes" id="labelNone">Les artistes</label>
+       <select class="form-control selectpicker show-tick" id="choixArtistes">
+         <option disabled selected>Les artistes</option>
+         <?php while($donneesArtiste = $reqArtiste->fetch()) { ?>
+         <option><?php echo $donneesArtiste["nom"];?></option>
+         <?php } ?>
+       </select>
+       </div>
+       <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Attention, il y a peut-être un piège...">?</p>
      </div>
-     <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Attention, il y a peut-être un piège...">?</p>
-   </div>
   </form>
 </center>
 <!-- FIN CHOIX ARTISTES -->
@@ -149,6 +149,19 @@
   <!-- FOOTER -->
   <?php include "footer.php"; ?>
   <!-- FIN FOOTER -->
+
+<!-- JQUERY -->
+<script src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<!-- JS BOOTSTRAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
+<!-- JS BOOTSTRAP SELECT -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
 </body>
 
 </html>
