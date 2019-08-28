@@ -14,7 +14,7 @@
   <link href="../public/styles/css/index.css" type="text/css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=eb+garamond|niconne&display=swap" rel="stylesheet">
 
-  
+
 </head>
 
 <body>
@@ -55,21 +55,27 @@
 <center>
 <section class="d-inline-flex  flex-row flex-wrap justify-content-center col-md-12 mb-3">
   <div class="card text-white bg-primary m-3" id="event" style="max-width: 20rem;">
-    <div class="card-header">Mettre ici la photo</div>
+    <div class="card-header">
+      <img src="../public/images/Baptême.jpg" alt="Baptême" width="271" height="186">
+    </div>
     <div class="card-body">
       <h4 class="card-title">Organiser un baptême</h4>
       <p class="card-text">Ajouter la description de l'événement baptême.</p>
     </div>
   </div>
   <div class="card text-white bg-primary m-3" id="event" style="max-width: 20rem;">
-    <div class="card-header">Mettre ici la photo</div>
-    <div class="card-body">
+    <div class="card-header">
+      <img src="../public/images/noces.jpg" alt="Mariage">
+    </div>
+      <div class="card-body">
       <h4 class="card-title">Organiser un mariage</h4>
       <p class="card-text">Ajouter la description de l'événement mariage.</p>
     </div>
   </div>
   <div class="card text-white bg-primary m-3" id="event" style="max-width: 20rem;">
-    <div class="card-header">Mettre ici la photo</div>
+    <div class="card-header">
+      <img src="../public/images/cimetiere.jpg" alt="Obsèques" width="271" height="186">
+    </div>
     <div class="card-body">
       <h4 class="card-title">Organiser des obsèques</h4>
       <p class="card-text">Ajouter la description de l'événement enterrement.</p>
