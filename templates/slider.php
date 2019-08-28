@@ -167,7 +167,7 @@
           data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
     		<!-- MAIN IMAGE -->
       		<img src="../public/images/slider/fete.jpg"  alt="Noces"  class="rev-slidebg"
-          data-bgposition="center bottom"
+          data-bgposition="center"
           data-bgfit="cover"
           data-bgrepeat="no-repeat"
           data-bgparallax="10"
@@ -278,7 +278,7 @@
           data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
     		<!-- MAIN IMAGE -->
         		<img src="../public/images/megissier.jpg"  alt="Mégissier" class="rev-slidebg"
-            data-bgposition="center bottom"
+            data-bgposition="center"
             data-bgfit="cover"
             data-bgrepeat="no-repeat"
             data-bgparallax="10"
