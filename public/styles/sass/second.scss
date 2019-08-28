@@ -38,14 +38,19 @@
   display: none;
 }
 
-/*#choixArtistes {
-  color: $wbrown;
-  background-color: $lbrown;
-  font-size: 1.2em !important;
-  font-weight: bold;
-  padding-left: 1em !important;
-  margin-bottom: 3em;
-}*/
+/* pour le select */
+.bs-ok-default:after {
+  color: green !important;
+}
+
+.btn-light {
+  color: $wbrown !important;
+  background-color: $lbrown !important;
+  background-image: radial-gradient(circle, $lbrown 10%, transparent 10.01%) !important;
+}
+.btn-light:after {
+  background-image: radial-gradient(circle, $lbrown 10%, transparent 10.01%) !important;
+}
 
 .p-tlp {
   font-size: 2em;

@@ -26,14 +26,18 @@
 #labelNone {
   display: none; }
 
-/*#choixArtistes {
-  color: $wbrown;
-  background-color: $lbrown;
-  font-size: 1.2em !important;
-  font-weight: bold;
-  padding-left: 1em !important;
-  margin-bottom: 3em;
-}*/
+/* pour le select */
+.bs-ok-default:after {
+  color: green !important; }
+
+.btn-light {
+  color: #fff4e6 !important;
+  background-color: #be9b7b !important;
+  background-image: radial-gradient(circle, #be9b7b 10%, transparent 10.01%) !important; }
+
+.btn-light:after {
+  background-image: radial-gradient(circle, #be9b7b 10%, transparent 10.01%) !important; }
+
 .p-tlp {
   font-size: 2em;
   color: #854442;

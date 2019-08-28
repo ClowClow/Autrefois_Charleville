@@ -38,6 +38,20 @@
   display: none;
 }
 
+/* pour le select */
+.bs-ok-default:after {
+  color: green !important;
+}
+
+.btn-light {
+  color: $wbrown !important;
+  background-color: $lbrown !important;
+  background-image: radial-gradient(circle, $lbrown 10%, transparent 10.01%) !important;
+}
+.btn-light:after {
+  background-image: radial-gradient(circle, $lbrown 10%, transparent 10.01%) !important;
+}
+/* pour les tips */
 .p-tlp {
   font-size: 2em;
   color: $maroon;
