@@ -3,10 +3,22 @@
 <footer>
   <!-- FOOTER PART1-->
   <section class="d-inline-flex  flex-row flex-wrap justify-content-around align-items-center col-md-12 m-0" id="foot1">
-    <img class="logoArdennesMet" src="../public/images/logo/ardennesMet.svg.png" alt="logo d'Ardennes Métropole"/>
-    <img class="logoHackArdennes" src="../public/images/logo/hackardennes.svg" alt="logo de hackArdennes"/>
-    <img class="logoSimplon" src="../public/images/logo/logoSimplon.png" alt="logo de simplon"/>
-    <img class="logoRT" src="../public/images/logo/logoRT.jpg" alt="logo de Rimbaud Tech"/>
+    <a href="http://www.ardenne-metropole.fr/" target="_blank">
+      <img class="logoArdennesMet" src="../public/images/logo/ardennesMet.svg.png"
+      alt="logo d'Ardennes Métropole"/>
+    </a>
+    <a href="https://hackardennes.com/" target="_blank">
+      <img class="logoHackArdennes" src="../public/images/logo/hackardennes.svg"
+      alt="logo de hackArdennes"/>
+    </a>
+    <a href="https://simplon-charleville.fr/" target="_blank">
+      <img class="logoSimplon" src="../public/images/logo/logoSimplon.png"
+      alt="logo de simplon"/>
+    </a>
+    <a href="https://www.rimbaud-tech.fr/" target="_blank">
+      <img class="logoRT" src="../public/images/logo/logoRT.jpg"
+      alt="logo de Rimbaud Tech"/>
+    </a>
   </section>
   <!-- FIN FOOTER PART1-->
 
