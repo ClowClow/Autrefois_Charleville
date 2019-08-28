@@ -46,8 +46,8 @@
       <div class="card-body">
         <p>Source : <a href="https://roadmovieblog.wordpress.com/2013/10/05/amours-et-mariages-en-france-dautrefois/20/"
           target="_blank">Accéder au site</a></p>
-        <!--<img src="../public/images/" id=""
-        alt=""/>-->
+        <img src="../public/images/mariage.jpg" id="mariagePict"
+        alt="Illustration d'un mariage du XVIIème siècle"/>
         <p class="card-text">-Faire sa cour : Le 1er mai est la nuit de la jeunesse.
           Les garçons « déménagent » sur la place du village divers objets hétéroclites
           et vont aussi, et surtout, planter les mais, jeunes arbres fraîchement coupés,
@@ -86,17 +86,16 @@
     <div class="card border-primary mb-5" id="ceremonie" style="max-width: 60rem;">
       <div class="card-header" id="BGless">La cérémonie profane du mariage autrefois</div>
       <div class="card-body">
-        <p>Source : <a href="https://roadmovieblog.wordpress.com/2013/10/05/amours-et-mariages-en-france-dautrefois/20/"
+        <p>Source : <a href="http://www.crdp-strasbourg.fr/data/histoire/alsace_XV-XVI/celebration_mariage.php?parent=7"
           target="_blank">Accéder au site</a></p>
         <!--<img src="../public/images/" id=""
         alt=""/>-->
-        <p class="card-text">-Faire sa cour : Le 1er mai est la nuit de la jeunesse.
-          Les garçons « déménagent » sur la place du village divers objets hétéroclites
-          et vont aussi, et surtout, planter les mais, jeunes arbres fraîchement coupés,
-          devant la porte des jeunes filles.  Les filles bien honorées remercient
-          les garçons et les convient à « arroser les mais » en les invitant à boire
-          le dimanche suivant. En la matière les historiens locaux nous invitent
-          par ailleurs ici à faire une double lecture de la chanson « La claire fontaine »…
+        <p class="card-text">Les festivités du mariage : celles-ci se déroulent
+          traditionnellement sur deux jours et réunissent plusieurs dizaines de
+          personnes puisqu’on limite à quarante le nombre de convives.
+          La cérémonie religieuse a lieu le matin, elle est suivie d’un repas de midi,
+          puis d’un repas du soir. Ces deux repas sont composés de multiples plats,
+          en particulier de viandes différentes.
         </p>
       </div>
     </div>
@@ -104,6 +103,25 @@
   <!-- FIN PARTIE CEREMONIE -->
 
   <!-- PARTIE NUIT -->
+  <section class="cardCenter">
+    <div class="card border-primary mb-5" id="nuit" style="max-width: 60rem;">
+      <div class="card-header" id="BGless">Le mariage de nuit</div>
+      <div class="card-body">
+        <p>Source : <a href="http://www.cairn.info/revue-dix-septieme-siecle-2009-3-page-523.htm#"
+          target="_blank">Accéder au site</a></p>
+        <!--<img src="../public/images/" id=""
+        alt=""/>-->
+        <p class="card-text">À quelle heure se mariait-on sous l’Ancien Régime ?
+          Cette question n’a jamais été étudiée de façon systématique. Or, bien
+          que la mention de l’heure de la célébration ne soit pas obligatoire dans
+          les registres paroissiaux, on la trouve assez souvent au XVIIe siècle
+          pour pouvoir en faire une analyse. L’horaire de la cérémonie religieuse
+          est en effet un indicateur précieux : il détermine le déroulement des
+          festivités
+        </p>
+      </div>
+    </div>
+  </section>
   <!-- FIN PARTIE NUIT -->
 
   <!-- FOOTER -->

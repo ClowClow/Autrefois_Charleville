@@ -11,10 +11,15 @@
   background-color: $maroon !important;
 }
 
-#metiers, #infoMariage, #ceremonie {
+#metiers, #infoMariage, #ceremonie, #nuit {
   border: 0.2em solid $maroon !important;
 
   #megissier {
+    width: 40em;
+    height: 20em;
+    margin-bottom: 2em;
+  }
+  #mariagePict {
     width: 40em;
     height: 20em;
     margin-bottom: 2em;
