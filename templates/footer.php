@@ -4,7 +4,7 @@
   <!-- FOOTER PART1-->
   <section class="d-inline-flex  flex-row flex-wrap justify-content-around col-md-12 m-0" id="foot1">
     <img class="logoArdennesMet" src="../public/images/logo/ardennesMet.svg.png" alt="logo d'Ardennes Métropole"/>
-    <img class="logoHackArdennes" src="../public/images/logo/hackArdennes.png" alt="logo de hackArdennes"/>
+    <img class="logoHackArdennes" src="../public/images/logo/hackardennes.svg" alt="logo de hackArdennes"/>
     <img class="logoSimplon" src="../public/images/logo/logoSimplon.png" alt="logo de simplon"/>
     <img class="logoRT" src="../public/images/logo/logoRT.jpg" alt="logo de Rimbaud Tech"/>
   </section>
