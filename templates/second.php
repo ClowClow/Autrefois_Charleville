@@ -66,8 +66,8 @@
     <div class="form-group col-md-6" >
 
      <label for="choixOfficiels" id="labelNone">Les officiels des 2 familles</label>
-           <select class="form-control selectpicker show-tick" multiple id="choixOfficiels" >
-       <option selected>Les officiels des 2 familles</option>
+    <select class="form-control selectpicker show-tick" multiple
+      title="Les officiels des 2 familles" id="choixOfficiels" >
        <?php while($donneesOfficiel = $reqOfficiel->fetch()) { ?>
        <option><?php echo $donneesOfficiel["nom"];?></option>
        <?php } ?>
@@ -86,8 +86,8 @@
 
     <div class="form-group col-md-6">
      <label for="choixCostumes" id="labelNone">Les personnes pour les costumes</label>
-     <select class="form-control selectpicker show-tick" multiple id="choixCostumes">
-       <option disabled selected>Les personnes pour les costumes</option>
+     <select class="form-control selectpicker show-tick" multiple
+      title="Les personnes pour les costumes" id="choixCostumes">
        <?php while($donneesCostume = $reqCostume->fetch()) { ?>
        <option><?php echo $donneesCostume["nom"];?></option>
        <?php } ?>
@@ -106,8 +106,8 @@
 
     <div class="form-group col-md-6">
      <label for="choixVoisin" id="labelNone">Les professionnels pour le repas</label>
-     <select class="form-control selectpicker show-tick" multiple id="choixVoisin">
-       <option disabled selected>Les professionnels pour le repas</option>
+     <select class="form-control selectpicker show-tick" multiple
+      title="Les professionnels pour le repas"id="choixVoisin">
        <?php while($donneesRepas = $reqRepas->fetch()) { ?>
        <option><?php echo $donneesRepas["nom"];?></option>
        <?php } ?>
@@ -125,8 +125,8 @@
     <div class="d-flex justify-content-center">
       <div class="form-group col-md-6">
        <label for="choixArtistes" id="labelNone">Les artistes</label>
-       <select class="form-control selectpicker show-tick" multiple id="choixArtistes">
-         <option disabled selected>Les artistes</option>
+       <select class="form-control selectpicker show-tick" multiple
+       title="Les artistes" id="choixArtistes">
          <?php while($donneesArtiste = $reqArtiste->fetch()) { ?>
          <option><?php echo $donneesArtiste["nom"];?></option>
          <?php } ?>

@@ -61,8 +61,8 @@
     <div class="d-flex justify-content-center">
       <div class="form-group col-md-6">
        <label for="choixFamille" id="labelNone">Les membres des deux familles</label>
-       <select class="form-control selectpicker show-tick" multiple id="choixFamille">
-         <option disabled selected>Les membres des deux familles</option>
+       <select class="form-control selectpicker show-tick" multiple
+        title="Les membres des deux familles" id="choixFamille">
          <?php while($donneesFamille = $reqFamille->fetch()) { ?>
          <option type="checkbox"><?php echo $donneesFamille["nom"];?></option>
          <?php } ?>
@@ -80,8 +80,8 @@
     <div class="d-flex justify-content-center">
       <div class="form-group col-md-6">
        <label for="choixCollegue" id="labelNone">Les collègues</label>
-       <select class="form-control selectpicker show-tick" multiple id="choixCollegue">
-         <option disabled selected>Les collègues</option>
+       <select class="form-control selectpicker show-tick" multiple
+        title="Les collègues" id="choixCollegue">
          <?php while($donneesCollegue = $reqCollegue->fetch()) { ?>
          <option><?php echo $donneesCollegue["nom"];?></option>
          <?php } ?>
@@ -99,8 +99,8 @@
     <div class="d-flex justify-content-center">
       <div class="form-group col-md-6">
        <label for="choixVoisin" id="labelNone">Les voisins</label>
-       <select class="form-control selectpicker show-tick" multiple id="choixVoisin">
-         <option disabled selected>Les voisins</option>
+       <select class="form-control selectpicker show-tick" multiple
+        title="Les voisins" id="choixVoisin">
          <?php while($donneesVoisin = $reqVoisin->fetch()) { ?>
          <option><?php echo $donneesVoisin["nom"];?></option>
          <?php } ?>
