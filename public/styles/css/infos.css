@@ -8,4 +8,18 @@
 #selectInfo:hover {
   background-color: #854442 !important; }
 
+#metiers, #infoMariage, #ceremonie {
+  border: 0.2em solid #854442 !important; }
+  #metiers #megissier, #infoMariage #megissier, #ceremonie #megissier {
+    width: 40em;
+    height: 20em;
+    margin-bottom: 2em; }
+
+#BGless {
+  background-color: #fff !important; }
+
+.cardCenter {
+  display: flex !important;
+  justify-content: center !important; }
+
 /*# sourceMappingURL=infos.css.map */

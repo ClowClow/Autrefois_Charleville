@@ -10,3 +10,22 @@
 #selectInfo:hover {
   background-color: $maroon !important;
 }
+
+#metiers, #infoMariage, #ceremonie {
+  border: 0.2em solid $maroon !important;
+
+  #megissier {
+    width: 40em;
+    height: 20em;
+    margin-bottom: 2em;
+  }
+}
+
+#BGless {
+  background-color: #fff !important;
+}
+
+.cardCenter{
+  display: flex !important;
+  justify-content: center !important;
+}
