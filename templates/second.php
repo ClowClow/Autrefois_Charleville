@@ -26,6 +26,7 @@
           include "../modele/afficheProCostumes.php";
           include "../modele/afficheProRepas.php";
           include "../modele/afficheProArtistes.php";
+          include "../modele/validation2.php";
     ?>
   <!-- FIN APPEL FICHIERS -->
 
@@ -59,9 +60,10 @@
 </section>
 <!-- FIN ENTÊTE -->
 
+<form action="../modele/validation2.php" method="POST">
 <!-- CHOIX OFFICIELS -->
 <center>
-  <form action="../modele/afficheProOfficiels.php" method="POST">
+  <section action="../modele/afficheProOfficiels.php">
     <div class="d-flex justify-content-center">
     <div class="form-group col-md-6" >
 
@@ -75,13 +77,13 @@
      </div>
      <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="As-tu pensé à regarder les infos sur les mariages civils?">?</p>
      </div>
-  </form>
+  </section>
 </center>
 <!-- FIN CHOIX OFFICIELS -->
 
 <!-- CHOIX COSTUMES-->
 <center>
-  <form action="../modele/afficheProCostumes.php" method="POST">
+  <section action="../modele/afficheProCostumes.php">
     <div class="d-flex justify-content-center">
 
     <div class="form-group col-md-6">
@@ -95,13 +97,13 @@
      </div>
      <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Différents corps de métier peuvent être ici utiles">?</p>
    </div>
-  </form>
+ </section>
 </center>
 <!-- FIN CHOIX COSTUMES -->
 
 <!-- CHOIX REPAS-->
 <center>
-  <form action="../modele/afficheProRepas.php" method="POST">
+  <section action="../modele/afficheProRepas.php">
     <div class="d-flex justify-content-center">
 
     <div class="form-group col-md-6">
@@ -115,13 +117,13 @@
      </div>
      <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Penses bien à vérifier les dates de naissances">?</p>
    </div>
-  </form>
+ </section>
 </center>
 <!-- FIN CHOIX REPAS -->
 
 <!-- CHOIX ARTISTES-->
 <center>
-  <form action="../modele/afficheProArtistes.php" method="POST">
+  <section action="../modele/afficheProArtistes.php" method="POST">
     <div class="d-flex justify-content-center">
       <div class="form-group col-md-6">
        <label for="choixArtistes" id="labelNone">Les artistes</label>
@@ -134,18 +136,18 @@
        </div>
        <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Attention, il y a peut-être un piège...">?</p>
      </div>
-  </form>
+  </section>
 </center>
 <!-- FIN CHOIX ARTISTES -->
 
 <!-- VALIDATION -->
   <center>
     <a href="##">
-      <button type="button" class="btn mb-5" id="validation">Valider !</button>
+      <button name="submit" type="submit" class="btn mb-5" id="validation">Valider !</button>
     </a>
   </center>
   <!-- FIN VALIDATION -->
-
+</form>
   <!-- FOOTER -->
   <?php include "footer.php"; ?>
   <!-- FIN FOOTER -->
