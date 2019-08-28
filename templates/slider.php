@@ -11,7 +11,9 @@
         <link rel="stylesheet" type="text/css" href="../public/revolution/css/navigation.css">
 
         <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css?family=eb+garamond|niconne&display=swap" rel="stylesheet">
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Niconne&display=swap');
+        </style>
 
         <!-- Core jQuery Script -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
@@ -80,7 +82,7 @@
              data-paddingright="[10,0,0,0]"
              data-paddingbottom="[0,0,0,0]"
              data-paddingleft="[10,0,0,0]"
-             style="z-index: 5; min-width: 364px; max-width: 364px; max-width: 133px; max-width: 133px; white-space: normal;text-transform:left; background-color: #be9b7b; color: #854442;border-radius: 0.1em 0.1em 0 0;padding: 0.2em;">AUTREFOIS CHARLEVILLE</div>
+             style="z-index: 5; min-width: 364px; max-width: 364px; max-width: 133px; max-width: 133px; max-height: 2em; white-space: normal;text-transform:left; background-color: #be9b7b; color: #854442;border-radius: 0.1em 0.1em 0 0;padding: 0.2em;font-size:'EB Garamond', serif;">Autrefois Charleville</div>
 
       <!-- LAYER NR. 2 -->
           <div class="tp-caption   tp-resizeme"
