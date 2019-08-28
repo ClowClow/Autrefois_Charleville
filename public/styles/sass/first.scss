@@ -8,11 +8,17 @@
   font-size: 1.2em !important;
 }
 #validation:hover {
-
+  background-color: $dmaroon !important;
 }
 
 #listInvit {
   border: 0.2em solid $maroon !important;
+
+  #notaire {
+    width: 45em;
+    height: 30em;
+  }
+
 }
 
 .jumbotron {

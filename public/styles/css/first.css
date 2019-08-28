@@ -5,8 +5,14 @@
   font-weight: bold !important;
   font-size: 1.2em !important; }
 
+#validation:hover {
+  background-color: #542a2a !important; }
+
 #listInvit {
   border: 0.2em solid #854442 !important; }
+  #listInvit #notaire {
+    width: 45em;
+    height: 30em; }
 
 .jumbotron {
   background-color: #fff !important; }

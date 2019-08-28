@@ -28,7 +28,7 @@
 <!-- PRESENTATION-->
 <center>
 <section class="card border-primary mb-5" id="presentation" style="max-width: 40rem;">
-  <div class="card-header">Et si vous pouviez remonter le temps et vivre à
+  <div class="card-header" id="BGless">Et si vous pouviez remonter le temps et vivre à
     Charleville il y a 300 ans ?</div>
   <div class="card-body">
     <p class="card-text">Imaginez-vous dans la peau d'un carolomacérien du XVIIème
@@ -78,7 +78,7 @@
 <!-- PARTIE PROFS -->
 <center>
 <section class="card border-primary mb-5" id="profs" style="max-width: 40rem;">
-  <div class="card-header">Vous êtes professeur et vous voulez faire découvrir
+  <div class="card-header" id="BGless">Vous êtes professeur et vous voulez faire découvrir
     Charleville et son histoire à l'aide de la bdd créée par le CNRS à vos élèves ?</div>
   <div class="card-body">
     <p class="card-text"> De manière ludique, faites plonger vos élèves au coeur

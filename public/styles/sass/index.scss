@@ -19,9 +19,11 @@
 }
 
 .card-header {
-  background-color: #fff !important;
   font-size: 1.2em !important;
   font-weight: bold !important;
+}
+#BGless {
+  background-color: #fff !important;
 }
 #presentation, #profs{
   border: 0.2em solid $maroon !important;
@@ -38,7 +40,9 @@
   font-weight: bold !important;
   font-size: 1.2em !important;
 }
-
+#jouer:hover, #inscription:hover {
+  background-color: $maroon !important;
+}
 #foot1 {
   background-color: #fff;
   border-top: 0.2em solid $dbrown;

@@ -21,7 +21,9 @@
 
 <!-- ENTÊTE -->
 <section class="d-inline-flex  flex-row flex-wrap justify-content-around col-md-12 m-5">
-  <figure class="col-md-6" id="listInvit">
+  <figure class="d-inline-flex flex-col justify-content-center align-items-center col-md-6" id="listInvit">
+    <img src="../public/images/notaires.jpg" id="notaire"
+    alt="Illustration représentant un registre notarial"/>
   </figure>
   <div class="jumbotron col-md-6">
     <h1 class="display-3">Etape 1: Créer la liste d'invités !</h1>
