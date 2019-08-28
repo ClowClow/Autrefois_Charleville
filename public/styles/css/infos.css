@@ -38,6 +38,12 @@
   padding: 0 0.6em 0.2em 0.6em;
   border-radius: 47%; }
 
+<<<<<<< HEAD
+=======
+/*.active:after {
+content: "\2212";
+}*/
+>>>>>>> a548c3db8cd70d6b5909da5850c97e1a301249b0
 .art-content {
   max-height: 0;
   overflow: hidden;
