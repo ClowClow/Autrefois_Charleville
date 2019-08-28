@@ -8,9 +8,13 @@
 #selectInfo:hover {
   background-color: #854442 !important; }
 
-#metiers, #infoMariage, #ceremonie {
+#metiers, #infoMariage, #ceremonie, #nuit {
   border: 0.2em solid #854442 !important; }
-  #metiers #megissier, #infoMariage #megissier, #ceremonie #megissier {
+  #metiers #megissier, #infoMariage #megissier, #ceremonie #megissier, #nuit #megissier {
+    width: 40em;
+    height: 20em;
+    margin-bottom: 2em; }
+  #metiers #mariagePict, #infoMariage #mariagePict, #ceremonie #mariagePict, #nuit #mariagePict {
     width: 40em;
     height: 20em;
     margin-bottom: 2em; }
