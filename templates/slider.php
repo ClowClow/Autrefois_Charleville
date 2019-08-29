@@ -215,7 +215,7 @@
           		 data-paddingbottom="[0,0,0,0]"
           		 data-paddingleft="[0,0,0,0]"
         			 style="z-index: 10;text-transform:left;border-width:0px;">
-               <img src="img/bluebar.png" alt=""
+               <img src="../public/images/slider/Maroonbar.png" alt=""
                data-ww="" data-hh=""
                width="350" height="4"
                data-no-retina>
@@ -324,7 +324,7 @@
         			 data-paddingbottom="[0,0,0,0]"
         			 data-paddingleft="[0,0,0,0]"
         			 style="z-index: 14;text-transform:left;border-width:0px;">
-               <img src="img/bluebar.png" alt=""
+               <img src="../public/images/slider/Maroonbar.png" alt=""
                data-ww="" data-hh=""
                width="350" height="4"
                data-no-retina>
