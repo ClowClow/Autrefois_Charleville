@@ -9,6 +9,8 @@
     font-family: 'Niconne', cursive !important;
     font-size: 3em !important;
     padding-bottom: 0.5em; }
+  .navbar .nav-link {
+    font-family: 'EB Garamond', serif; }
   .navbar .navbar-nav {
     font-size: 1.5em !important; }
 
