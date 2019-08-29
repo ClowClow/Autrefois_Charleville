@@ -69,8 +69,8 @@
          <?php } ?>
        </select>
       </div>
-      <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Attention ils ne portent
-      pas tous le nom Brion">?</p>
+      <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Pense à regarder aussi
+      les données indiquées dans l'onglet ménage ! ">?</p>
     </div>
   </section>
 </center>
@@ -89,7 +89,8 @@
          <?php } ?>
        </select>
      </div>
-     <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="">?</p>
+     <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Ne vous
+     contentez pas de regarder l'année 1750 pour les collègues des mariés">?</p>
    </div>
  </section>
 </center>
@@ -108,7 +109,8 @@
          <?php } ?>
        </select>
      </div>
-     <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="">?</p>
+     <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Attention
+     à rester logique dans votre recherche">?</p>
     </div>
   </section>
 </center>

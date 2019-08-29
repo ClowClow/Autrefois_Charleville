@@ -20,7 +20,7 @@
       <a class="nav-link font-weight-bolder" href="infos.php" target="_blank">Infos</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link font-weight-bolder" href="#">Connexion</a>
+      <a class="nav-link font-weight-bolder" href="coEleve.php">Connexion</a>
     </li>
   </ul>
   <!--<form class="form-inline my-2 my-lg-0">

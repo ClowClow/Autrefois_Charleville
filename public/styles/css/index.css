@@ -11,6 +11,8 @@
     padding-bottom: 0.5em; }
   .navbar .nav-link {
     font-family: 'EB Garamond', serif; }
+  .navbar .nav-link:hover {
+    color: #be9b7b !important; }
   .navbar .navbar-nav {
     font-size: 1.5em !important; }
 
