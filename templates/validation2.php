@@ -22,6 +22,9 @@
 <center>
 <section class="card border-primary m-5" id="presentation" style="max-width: 40rem;">
   <div class="card-header" id="BGless">Bravo !!! </br> Tu as réussi !!</div>
+  <figure>
+    <img src="../public/images/validation/right.png"/>
+  </figure>
   <div class="card-body">
     <p class="card-text">
       Tu peux désormais passer à l'étape suivante :

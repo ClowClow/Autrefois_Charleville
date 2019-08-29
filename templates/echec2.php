@@ -24,6 +24,9 @@
 <section class="card border-primary m-5" id="presentation" style="max-width: 40rem;">
   <div class="card-header" id="BGless">Oups malheureusement ton formulaire comporte
   des erreurs !!</div>
+  <figure>
+    <img src="../public/images/validation/wrong.png"/>
+  </figure>
   <div class="card-body">
     <p class="card-text">
       As-tu bien vérifié que tes invités appartenaient à la bonne époque
