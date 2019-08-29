@@ -55,9 +55,10 @@
 </section>
 <!-- FIN ENTÊTE -->
 
+<form action="../modele/validation1.php" method="POST">
 <!-- CHOIX FAMILLE -->
 <center>
-  <form action="../modele/afficheInviteFamille.php" method="POST">
+  <section action="../modele/afficheInviteFamille.php">
     <div class="d-flex justify-content-center">
       <div class="form-group col-md-6">
        <label for="choixFamille" id="labelNone">Les membres des deux familles</label>
@@ -70,13 +71,13 @@
       </div>
       <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="">?</p>
     </div>
-  </form>
+  </section>
 </center>
 <!-- FIN CHOIX FAMILLE -->
 
 <!-- CHOIX COLLEGUE-->
 <center>
-  <form action="../modele/afficheInviteCollegue.php" method="POST">
+  <section action="../modele/afficheInviteCollegue.php">
     <div class="d-flex justify-content-center">
       <div class="form-group col-md-6">
        <label for="choixCollegue" id="labelNone">Les collègues</label>
@@ -89,13 +90,13 @@
      </div>
      <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="">?</p>
    </div>
-  </form>
+ </section>
 </center>
 <!-- FIN CHOIX COLLEGUE -->
 
 <!-- CHOIX VOISINS-->
 <center>
-  <form action="../modele/afficheInviteVoisin.php" method="POST">
+  <section action="../modele/afficheInviteVoisin.php">
     <div class="d-flex justify-content-center">
       <div class="form-group col-md-6">
        <label for="choixVoisin" id="labelNone">Les voisins</label>
@@ -108,9 +109,10 @@
      </div>
      <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="">?</p>
     </div>
-  </form>
+  </section>
 </center>
 <!-- FIN CHOIX VOISINS -->
+</form>
 
 <!-- VALIDATION -->
   <center>
