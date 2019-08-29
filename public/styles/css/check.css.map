@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AACQ,uFAA+E;AAEvF,2CAA2C;AAE3C,MAAO;EACL,KAAK,EAAE,kBAAkB;EACzB,gBAAgB,EAAE,kBAAkB;EACpC,KAAK,EAAE,eAAe;EACtB,WAAW,EAAE,eAAe;EAC5B,SAAS,EAAE,gBAAgB;;AAG7B,YAAa;EACX,gBAAgB,EAAE,kBAAkB;;AAGtC,yBAAyB;AACzB,SAAU;EACR,gBAAgB,EAAE,eAAe",
+"sources": ["../sass/check.scss"],
+"names": [],
+"file": "check.css"
+}

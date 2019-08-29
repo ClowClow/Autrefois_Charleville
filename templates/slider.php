@@ -101,7 +101,7 @@
              data-paddingbottom="[0,0,0,0]"
              data-paddingleft="[0,0,0,0]"
              style="z-index: 6;text-transform:left;border-width:0px;">
-             <img src="img/bluebar.png" alt=""
+             <img src="../public/images/slider/Maroonbar.png" alt=""
              data-ww="['350px','350px','350px','350px']"
              data-hh="['4px','4px','4px','4px']"
              width="350" height="4"

@@ -21,10 +21,14 @@
 <!-- FIN NAVBAR -->
 <center>
 <section class="card border-primary m-5" id="presentation" style="max-width: 40rem;">
-  <div class="card-header" id="BGless">Vous avez réussi cette étape !!</div>
+  <div class="card-header" id="BGless">Bravo !!! </br> Tu as réussi !!</div>
   <div class="card-body">
     <p class="card-text">
+      Tu peux désormais passer à l'étape suivante :
     </p>
+    <a href="second.php">
+      <button type="button" class="btn mb-5" id="suite">Suite !</button>
+    </a>
   </div>
 </section>
 </center>

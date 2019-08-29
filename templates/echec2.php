@@ -22,11 +22,16 @@
 
 <center>
 <section class="card border-primary m-5" id="presentation" style="max-width: 40rem;">
-  <div class="card-header" id="BGless">Malheureusement tu n'as pas validé l'étape en cours. Courage, nous sommes
-  sûrs que tu peux mieux faire !!</div>
+  <div class="card-header" id="BGless">Oups malheureusement ton formulaire comporte
+  des erreurs !!</div>
   <div class="card-body">
     <p class="card-text">
+      As-tu bien vérifié que tes invités appartenaient à la bonne époque
+      (autour de 1750) ?
     </p>
+    <a href="second.php">
+      <button type="button" class="btn mb-5" id="suite">Nouvel Essai !</button>
+    </a>
   </div>
 </section>
 </center>

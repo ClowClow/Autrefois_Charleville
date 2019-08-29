@@ -69,7 +69,8 @@
          <?php } ?>
        </select>
       </div>
-      <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="">?</p>
+      <p class="p-tlp" data-toggle="tooltip" data-placement="bottom" title="Attention ils ne portent
+      pas tous le nom Brion">?</p>
     </div>
   </section>
 </center>
@@ -112,16 +113,16 @@
   </section>
 </center>
 <!-- FIN CHOIX VOISINS -->
-</form>
+
 
 <!-- VALIDATION -->
   <center>
     <a href="second.php">
-      <button type="button" class="btn mb-5" id="validation">Valider !</button>
+      <button name="submit" type="submit" class="btn mb-5" id="validation">Valider !</button>
     </a>
   </center>
   <!-- FIN VALIDATION -->
-
+</form>
   <!-- FOOTER -->
   <?php include "footer.php"; ?>
   <!-- FIN FOOTER -->
